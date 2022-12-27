@@ -17,11 +17,11 @@
     text-decoration: none;
     
 }
-.btn a:hover{
+.btn , .btn a:hover{
     color: rgb(241, 241, 241);
     text-decoration: none;
 }
-.btn a{
+.btn , .btn a{
     color: rgb(48, 48, 48);
     text-decoration: none;
 }
@@ -32,12 +32,22 @@
     color: black;
 }
 /* main info */
-
-p{
-    text-align: center;
-    font-size: larger;
+.text div{
+  padding: 10px;
 }
-.menu , .gal{
+.text{
+  display: flex;
+  flex-direction: row;
+}
+.box{
+  flex-basis: 25%;
+}
+.text{
+  text-align: center;
+  justify-content: center;
+}
+
+.menu , .gal , .con{
     width: 50%;
     margin: auto;
 }
@@ -45,6 +55,9 @@ p{
     text-align: left;
     font-weight: bold
 
+}
+.btn{
+  border: 1px solid grey;
 }
 /* footer */
 
@@ -135,3 +148,6 @@ p{
     font-size:13px;
     opacity:0.6;
   }
+.container{
+    width: 100%;
+}
