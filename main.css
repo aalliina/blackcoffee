@@ -68,6 +68,21 @@
 .btn{
   border: 1px solid grey;
 }
+.top-left {
+  position: absolute;
+  top: 250px;
+  left: 200px;
+  width: 30%;
+  font-size: 40px;
+}
+.o{
+  font-size: 25px;
+}
+.container-main{
+  position: relative;
+  text-align: left;
+  color: white;
+}
 /* footer */
 
 .footer-clean {
