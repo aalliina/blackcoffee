@@ -35,7 +35,7 @@
 .text div{
   padding: 10px;
 }
-.text{
+.text , .m{
   display: flex;
   flex-direction: row;
 }
@@ -46,7 +46,10 @@
   text-align: center;
   justify-content: center;
 }
-
+.n{
+  flex-basis: 40%;
+  padding: 10px;
+}
 .menu , .gal , .con{
     width: 50%;
     margin: auto;
@@ -54,7 +57,10 @@
 .card-text{
     text-align: left;
     font-weight: bold
-
+}
+.main-page{
+  width: 70%;
+  margin: auto;
 }
 .btn{
   border: 1px solid grey;
