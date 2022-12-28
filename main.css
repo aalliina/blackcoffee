@@ -83,6 +83,20 @@
   text-align: left;
   color: white;
 }
+
+.j{
+  width: 100%;
+  margin: auto;
+
+}
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 60px;
+}
 /* footer */
 
 .footer-clean {
