@@ -35,6 +35,9 @@
 .text div{
   padding: 10px;
 }
+.m{
+  font-size: larger;
+}
 .text , .m{
   display: flex;
   flex-direction: row;
